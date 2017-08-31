@@ -144,7 +144,7 @@ segments. In addition, I also drived a lap clockwise to generate some right turn
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 Click below to play the recorded video on YouTube:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hXVuRX5KKYM/0.jpg)](https://youtu.be/hXVuRX5KKYM)
+[![run result](https://img.youtube.com/vi/e286o46tYuk/0.jpg)](https://youtu.be/e286o46tYuk)
 
 #### 2. Final Model Architecture
 
