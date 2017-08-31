@@ -143,6 +143,9 @@ segments. In addition, I also drived a lap clockwise to generate some right turn
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hXVuRX5KKYM/0.jpg)](https://youtu.be/hXVuRX5KKYM)
+
 #### 2. Final Model Architecture
 
 The final model architecture (model.py lines 58-70) consisted of a convolution neural network with the 
