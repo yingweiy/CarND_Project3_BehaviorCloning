@@ -1,4 +1,4 @@
-#**Project III: Behavioral Cloning** 
+# **Project III: Behavioral Cloning** 
 
 ---
 
