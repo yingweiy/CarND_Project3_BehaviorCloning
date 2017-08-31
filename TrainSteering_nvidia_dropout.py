@@ -65,19 +65,17 @@ model.add(Convolution2D(64,(3,3), activation='relu'))
 model.add(Convolution2D(64,(3,3), activation='relu'))
 model.add(Flatten())
 model.add(Dense(100))
+model.add(Dropout(rate=0.1))
 model.add(Dense(50))
 model.add(Dense(10))
 model.add(Dense(1))
 
 model.compile(loss='mse', optimizer='adam')
-#print('Loading weights....')
-#model.load_weights('nv100_weights.h5')
 print('Start training...')
-history_object=model.fit(X_train, y_train, validation_split=0.1, shuffle=True, epochs=10, verbose=1)
+history_object=model.fit(X_train, y_train, validation_split=0.1, shuffle=True, epochs=6, verbose=1)
 print('Saving weights....')
-#model.save('m_nv100.h5')
-#model.save_weights('nv100_weights.h5')
-plot=True
+model.save('m_nv_dropout.h5')
+plot=False
 
 if plot==True:
     ### print the keys contained in the history object
