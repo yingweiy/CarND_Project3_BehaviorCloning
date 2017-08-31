@@ -142,7 +142,7 @@ To improve the driving behavior in these cases, I added more training data by re
 segments. In addition, I also drived a lap clockwise to generate some right turn data points. 
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
-
+Click below to play the recorded video on YouTube:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hXVuRX5KKYM/0.jpg)](https://youtu.be/hXVuRX5KKYM)
 
